@@ -1,0 +1,75 @@
+.user-avatar {
+  //avatar uzytkownika
+  margin-left: 0.5vw;
+  margin-top: 0.5vw;
+  background-color: #9933cc;
+  display: inline-block;
+  height: 4vw;
+  min-height: 50px;
+  width: 4vw;
+  min-width: 50px;
+  border-width: 4px;
+  border-style: groove;
+  border-radius: 1vw;
+  border-color: gray;
+  padding: 0.3vw;
+  // grid-column-start: 1;
+  // grid-column-end: span 1;
+  // grid-row-start: 1;
+  // grid-row-end: span 1;
+}
+.user-data {
+  // email użytkownika
+  display: inline-block;
+  align-items: center;
+
+  color: white;
+  width: 40%;
+  font-size: calc(8px + 0.8vw);
+  margin-left: 1vw;
+
+  border-width: 5px;
+  border-style: groove;
+  border-radius: 15px;
+
+  border-color: #9933cc;
+
+  a {
+    color: white;
+    text-decoration: none;
+  }
+}
+.post {
+  // wiadomość użytkownika
+  background-color: #b48fff;
+  margin: 0.3vw 0.3vw 0.3vw;
+  font-family: "Montserrat";
+  min-height: 200px;
+  font-size: calc(18px + 0.2vw);
+  border-style: solid;
+  border-radius: 1.5vw;
+  padding: 0.2vw;
+  border-color: #9933cc;
+}
+.bttn-edit-post {
+  // guzik edit post
+  display: inline-block;
+  font-size: calc(4px + 0.6vw);
+  color: white;
+  background-color: #660066;
+  width: calc(20px + 4vw);
+  height: calc(20px + 2vw);
+  margin: 1vw 1vw;
+  font-size: calc(14px + 0.1vw);
+  border-color: #9966ff;
+  border-radius: 1vw;
+  border-style: groove;
+}
+.comments {
+  background-color: #6633cc;
+  border-color: #9933cc;
+  border-style: solid;
+  border-radius: 1vw;
+  border-width: 5px;
+  padding: 0.5vw;
+}

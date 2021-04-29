@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: calc(100vh - 64px);
+  color: white;
+
+  .edit-profile-container {
+    position: relative;
+    display: block;
+    width: 90%;
+    height: 90%;
+    top: 5%;
+    left: 5%;
+    border-radius: 3vw;
+    background: linear-gradient(
+      90deg,
+      rgba(177, 17, 198, 1) 0%,
+      rgba(106, 9, 121, 1) 62%,
+      rgba(67, 9, 121, 1) 85%
+    );
+
+    form {
+      display: grid;
+      grid-template-columns: 33% 33% 33%;
+      grid-template-rows: 10% 10% 60% 10% 10%;
+      grid-column-gap: 10px;
+      padding: 2vw;
+
+      position: relative;
+
+      height: 100%;
+
+      .header-edit-profile {
+        color: white;
+      }
+
+      .edit-profile-item1 {
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-start: 2;
+        grid-row-end: 3 span;
+
+        background-color: #c222d7;
+        padding: 1vw;
+        border-radius: 2vw;
+        border-style: solid;
+        border-color: #b111c6;
+      }
+      .edit-profile-item2 {
+        grid-column-start: 2;
+        grid-column-end: 2;
+        grid-row-start: 2;
+        grid-row-end: 3 span;
+
+        background-color: #7b0989;
+        border-color: #6a0878;
+        border-style: solid;
+        padding: 1vw;
+        border-radius: 2vw;
+      }
+      .edit-profile-item3 {
+        grid-column-start: 3;
+        grid-column-end: 3;
+        grid-row-start: 2;
+        grid-row-end: 3 span;
+        background-color: #541989;
+        border-color: #430878;
+        border-style: solid;
+        padding: 1vw;
+        border-radius: 2vw;
+
+        .about-edit-post {
+          resize: none;
+          border: 3px solid #9933cc;
+          width: 100%;
+          height: 80%;
+          border-radius: 1vw;
+          font-size: calc(6px + 1vw);
+          background-color: #b48fff;
+        }
+      }
+      .bttn-create-profile {
+        grid-column-start: 3;
+        grid-column-end: 3;
+        grid-row-start: 5;
+        grid-row-end: 5;
+        position: relative;
+        vertical-align: middle;
+        padding: 0.5vw;
+        background-color: #542989;
+        font-size: calc(5px + 0.8vw);
+        border-style: solid;
+        border-color: #653999;
+        border-radius: 2vw;
+
+        color: white;
+        width: 6vw;
+        height: 5vh;
+        margin: 2vw 20vw;
+      }
+
+      label {
+        display: block;
+        margin: 0.3vw;
+        width: 100%;
+        font-size: calc(5px + 0.5vw);
+      }
+      input {
+        background-color: #b48fff;
+        display: block;
+        width: 100%;
+        border-radius: 2vw;
+      }
+    }
+  }
+}

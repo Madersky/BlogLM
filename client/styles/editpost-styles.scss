@@ -1,0 +1,84 @@
+.edit-post-container {
+  position: relative;
+  display: block;
+  background-color: #b111c6;
+
+  color: white;
+  margin-left: 1vw;
+  margin-bottom: 0.5vw;
+  width: 90%;
+  min-width: 100px;
+  height: 6vw;
+  min-height: 100px;
+  border-radius: 1.5vw;
+  border-style: solid;
+  border-color: white;
+  padding: 0.3vw;
+  text-align: center;
+  font-family: 'Montserrat';
+  margin-top: 0.5vw;
+
+  .edit-text-area {
+    position: relative;
+    float: left;
+
+    resize: none;
+    border: 3px solid #9933cc;
+    width: 80%;
+    height: 65%;
+
+    border-radius: 0.5vw;
+    font-size: calc(6px + 1vw);
+    background-color: #b48fff;
+  }
+
+  .bttn-accept-post {
+    float: right;
+    margin: 0.2vw 0.5vw 0.5vw;
+    font-size: calc(4px + 0.35vw);
+    color: white;
+    background-color: #660066;
+    width: calc(8px + 3vw);
+    height: calc(8px + 2vw);
+
+    border-color: #9966ff;
+    border-radius: 1vw;
+    border-style: groove;
+    transition: ease-in-out 0.5s;
+  }
+  .bttn-accept-post:hover {
+    background-color: #440044;
+    transition: ease-in-out 0.5s;
+  }
+  .bttn-delete-post {
+    float: left;
+    margin: 1vw 0.5vw 0.5vw;
+    font-size: calc(4px + 0.6vw);
+    color: white;
+    background-color: #660066;
+    width: calc(8px + 3vw);
+    height: calc(8px + 2vw);
+
+    font-size: calc(14px + 0.1vw);
+    border-color: #9966ff;
+    border-radius: 1vw;
+    border-style: groove;
+  }
+  .bttn-cancel-post {
+    float: right;
+    margin: 1vw 0.5vw 0.5vw;
+    font-size: calc(4px + 0.6vw);
+    color: white;
+    background-color: #660066;
+    width: calc(8px + 3vw);
+    height: calc(8px + 2vw);
+
+    font-size: calc(14px + 0.1vw);
+    border-color: #9966ff;
+    border-radius: 1vw;
+    border-style: groove;
+  }
+  .bttn-create-profile {
+    background-color: red;
+  }
+}

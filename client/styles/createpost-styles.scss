@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,900&display=swap");
+// @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+* {
+  font-family: "Montserrat";
+  box-sizing: border-box;
+}
+
+.form-post {
+  position: relative;
+  overflow-y: scroll;
+
+  max-width: 100%;
+
+  max-height: 25vh;
+
+  border-radius: 1vw;
+  border-style: groove;
+  border-width: 4px;
+
+  border-color: #9933cc;
+  font-size: calc(12px + 1vw);
+  background-color: #9966ff;
+
+  .user-avatar {
+    display: inline-block;
+    margin: 2px 2px;
+
+    background-color: #9933cc;
+    height: 50px;
+    min-height: 50px;
+    width: 50px;
+    min-width: 50px;
+    border-width: 4px;
+    border-style: groove;
+    border-radius: 1vw;
+    border-color: gray;
+    padding: 5px;
+  }
+
+  .user-name {
+    display: inline-flex;
+    height: 30px;
+    min-height: 50px;
+    width: 4vw;
+    min-width: 80px;
+    vertical-align: top;
+    align-items: center;
+
+    h5 {
+      font-size: calc(12px + 0.6vw);
+      color: white;
+      height: 30px;
+      min-height: 50px;
+      width: 4vw;
+      min-width: 80px;
+    }
+  }
+
+  textarea {
+    //
+    resize: none;
+
+    border: 3px solid#9933CC;
+    width: 99%;
+    height: 40%;
+
+    border-radius: 0.5vw;
+    font-size: calc(14px + 0.6vw);
+    background-color: #b48fff;
+  }
+  .post-errors {
+    display: inline-block;
+  }
+
+  .btn-addpost {
+    color: white;
+    background-color: #660066;
+    width: 60px;
+    height: 40px;
+    font-size: calc(14px + 0.1vw);
+    border-color: #9966ff;
+    border-radius: 1vw;
+    border-style: groove;
+    transition: ease-in-out 0.5s;
+    float: right;
+    margin-right: 10px;
+
+    // transition-duration: 0.4s;
+
+    &:hover {
+      transition: ease-in-out 0.5s;
+
+      background-color: #440044;
+    }
+  }
+  form.hidden {
+    display: block;
+    visibility: hidden;
+  }
+}

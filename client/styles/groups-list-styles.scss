@@ -1,0 +1,42 @@
+.container {
+  .groups-list {
+    padding: 0.5vw;
+    font-size: calc(10px + 0.6vw);
+
+    list-style: none;
+    text-decoration: none;
+
+    .hr-style {
+      border: 0;
+      height: 0.1vw;
+      margin-bottom: 1vw;
+      background: linear-gradient(
+        90deg,
+        rgba(67, 9, 121, 1) 0%,
+        rgba(121, 9, 89, 1) 50%,
+        rgba(67, 9, 121, 1) 100%
+      );
+    }
+
+    .join-group-bttn {
+      color: white;
+      background: linear-gradient(
+        90deg,
+        rgba(67, 9, 121, 1) 0%,
+        rgba(121, 9, 89, 1) 50%,
+        rgba(67, 9, 121, 1) 100%
+      );
+      width: 5vw;
+      height: calc(16px + 0.3vw);
+      font-size: calc(8px + 0.4vw);
+      border-color: white;
+      border-radius: 1vw;
+      position: relative;
+    }
+
+    a {
+      text-decoration: none;
+      color: white;
+    }
+  }
+}

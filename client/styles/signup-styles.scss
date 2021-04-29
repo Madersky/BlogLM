@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap');
+// @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+* {
+  font-family: 'Montserrat';
+  box-sizing: border-box;
+}
+
+.signupin {
+  color: white;
+  font-size: calc(16px + 1vw);
+  margin-bottom: 0.4vw;
+  margin-top: 1vw;
+}
+
+.container {
+  height: 600px;
+
+  form {
+    position: relative;
+    margin: 0vw auto 0 auto;
+    top: 5vw;
+    text-align: center;
+    min-width: 350px;
+    min-height: 350px;
+    width: 25vw;
+    height: 25vw;
+
+    padding: 0vw 4vw 3vw 4vw;
+    border-radius: 1vw;
+    border-width: 5px;
+    border-style: solid;
+    border-color: white;
+    margin-bottom: 0.5vw;
+    font-size: calc(8px + 1vw);
+    background-color: #9933cc;
+
+    .form-group {
+      label {
+        width: 100%;
+        margin: 0vw 0 0.5vw 0vw;
+        font-size: calc(10px + 1vw);
+        color: white;
+      }
+
+      input {
+        width: 100%;
+        margin-bottom: 0vw;
+        margin-top: 0.1vw;
+        border-radius: 0.5vw;
+        height: calc(4px + 2.2vw);
+        font-size: calc(6px + 1vw);
+        color: black;
+        border-color: white;
+      }
+    }
+    .btn-signup {
+      margin-top: 1vw;
+      color: white;
+      background-color: #9966ff;
+      width: 10vw;
+      height: calc(24px + 1.5vw);
+      font-size: calc(8px + 1vw);
+      border-color: white;
+      border-radius: 1vw;
+      position: relative;
+      transition: all 0.8s ease-in-out;
+      
+      box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2),
+        0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+      &:hover {
+       
+        transition: all 0.8s ease-in-out;
+        
+        background-color: #9933cc;
+      }
+    }
+  }
+}

@@ -1,0 +1,17 @@
+.box-errors-credentials {
+  font-size: calc(14px + 0.1vw);
+  color: white;
+  margin-top: calc(10px + 0.4vw);
+
+  ul {
+    list-style: none;
+    margin-top: 0.2vw;
+    color: white;
+
+    li {
+      margin-top: 0.2vw;
+      color: white;
+      margin-bottom: 0.2vw;
+    }
+  }
+}

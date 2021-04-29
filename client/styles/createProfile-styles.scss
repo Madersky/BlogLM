@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: calc(100vh - 64px);
+  color: white;
+
+  .create-profile-container {
+    position: relative;
+    display: block;
+    width: 30%;
+    height: 90%;
+    top: 5%;
+    left: 35%;
+    background-color: indigo;
+
+    form {
+      position: relative;
+      left: 25%;
+      display: block;
+      width: 50%;
+      height: 95%;
+
+      label {
+        display: block;
+        width: 100%;
+      }
+      input {
+        display: block;
+        width: 100%;
+      }
+    }
+  }
+}

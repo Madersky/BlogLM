@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,900&display=swap");
+// @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+* {
+  font-family: "Montserrat";
+  box-sizing: border-box;
+}
+
+.list-post {
+  position: relative;
+  display: grid;
+  grid-template-columns: 15% 20% 45% 20%;
+  grid-template-rows: 15% 10% 50% 25%;
+  background-color: white;
+  height: 100%;
+  width: 100%;
+
+  .user-data {
+    color: white;
+    text-decoration: none;
+    background-color: pink;
+    grid-column-start: 2;
+    grid-column-end: span 4;
+    grid-row-start: 1;
+    grid-row-end: span 1;
+  }
+
+  .user-avatar {
+    background-color: green;
+    grid-column-start: 1;
+    grid-column-end: span 1;
+    grid-row-start: 1;
+    grid-row-end: span 1;
+  }
+  // .comments {
+  //   background-color: lightgreen;
+  //   grid-column-start: 1;
+  //   grid-column-end: span 4;
+  //   grid-row-start: 4;
+  //   grid-row-end: span 4;
+  //   resize: none;
+  //   .comment-text {
+  //     background-color: lightgreen;
+  //     float: right;
+  //     resize: none;
+  //     border: 3px solid white;
+  //     width: 20%;
+  //     height: 60%;
+
+  //     border-radius: 0.5vw;
+  //     font-size: calc(6px + 1vw);
+  //     background-color: lightgrey;
+  //   }
+  // }
+
+  .post {
+    background-color: red;
+    grid-column-start: 1;
+    grid-column-end: span 4;
+    grid-row-start: 2;
+    grid-row-end: span 2;
+  }
+}
+
+//  grid-column-start: 1;
+//       grid-column-end: span 1;
+//       grid-row-start: 1;
+//       grid-row-end: span 1;
